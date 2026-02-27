@@ -1,6 +1,12 @@
 {
-  "buildCommand": "echo 'Build completo'",
+  "framework": null,
+  "buildCommand": "",
   "outputDirectory": ".",
-  "framework": "static",
-  "public": true
+  "public": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
