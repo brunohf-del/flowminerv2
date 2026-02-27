@@ -1,0 +1,6 @@
+{
+  "buildCommand": "echo 'Build completo'",
+  "outputDirectory": ".",
+  "framework": "static",
+  "public": true
+}
